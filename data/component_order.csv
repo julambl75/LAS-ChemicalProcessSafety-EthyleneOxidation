@@ -1,0 +1,14 @@
+from_component,to_component
+srcr1,xv3
+xv3,m2
+xc2,xv3
+m2,k1
+k1,e2
+e2,m1
+xc1,xv2
+xv2,e2
+e2,xv1
+srce1,xv2
+xv1,snk2
+m1,r1
+r1,snk1
