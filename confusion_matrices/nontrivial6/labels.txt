@@ -1,0 +1,6 @@
+0,missingEthylene_source
+1,lowSetpoint_flowControlLoop
+2,lowSetpoint_tempControlLoop
+3,leak_beforeCompressor
+4,lowPressure_coolingWater
+5,stuckClosed_coolingWaterOutValve

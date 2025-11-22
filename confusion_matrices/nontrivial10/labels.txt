@@ -1,0 +1,10 @@
+0,highSetpoint_flowControlLoop
+1,highSetpoint_tempControlLoop
+2,leak_beforeCompressor
+3,lowSetpoint_flowControlLoop
+4,lowSetpoint_tempControlLoop
+5,missingEthylene_source
+6,missingOxygen_source
+7,stuckClosed_coolingWaterOutValve
+8,stuckClosed_tempControlValve
+9,stuckOpen_tempControlValve
