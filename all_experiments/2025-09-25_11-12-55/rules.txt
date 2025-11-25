@@ -1,0 +1,36 @@
+1:failure(source,missingEthylene) :- measured(short_term,m1_pv,high2).
+1:failure(source,missingEthylene) :- measured(short_term,m1_pv,high4).
+0.4:failure(tempControlLoop,lowSetpoint) :- measured(short_term,e2_tsi,normal), short_term_bucket_change(srcr1_t,up), measured(short_term,m1_pv,high1).
+0.4:failure(coolingWater,lowPressure) :- short_term_bucket_change(e2_tsi,none), measured(short_term,m1_pv,high1).
+0.4:failure(coolingWaterOutValve,stuckClosed) :- measured(short_term,e2_tsi,normal), short_term_bucket_change(srcr1_t,up), measured(short_term,m1_pv,high1).
+0.3:failure(beforeCompressor,leak) :- short_term_bucket_change(m2_pv,none), measured(short_term,m1_pv,normal).
+0.5:failure(beforeCompressor,leak) :- measured(short_term,srcr1_t,normal), measured(short_term,e2_tsi,normal), measured(short_term,m2_pv,low1), measured(short_term,m1_pv,normal).
+0.3:failure(tempControlLoop,lowSetpoint) :- short_term_bucket_change(m2_pv,none), short_term_bucket_change(m1_pv,none).
+0.5:failure(tempControlLoop,lowSetpoint) :- measured(short_term,srcr1_t,normal), measured(short_term,e2_tsi,normal), measured(short_term,m2_pv,low1), measured(short_term,m1_pv,normal).
+0.3:failure(coolingWaterOutValve,stuckClosed) :- short_term_bucket_change(m2_pv,none), short_term_bucket_change(m1_pv,none).
+0.5:failure(coolingWaterOutValve,stuckClosed) :- measured(short_term,srcr1_t,normal), measured(short_term,e2_tsi,normal), measured(short_term,m2_pv,low1), measured(short_term,m1_pv,normal).
+0.5:failure(coolingWater,lowPressure) :- measured(short_term,srcr1_t,normal), measured(short_term,e2_tsi,normal), measured(short_term,m2_pv,low1), measured(short_term,m1_pv,normal).
+0.4:failure(coolingWater,lowPressure) :- measured(short_term,e2_tsi,high1), measured(short_term,srcr1_t,high1), measured(short_term,m1_pv,high1).
+0.4:failure(tempControlLoop,lowSetpoint) :- measured(short_term,e2_tsi,high1), short_term_bucket_change(srcr1_t,up), measured(short_term,m1_pv,high1).
+0.4:failure(beforeCompressor,leak) :- measured(short_term,e2_tsi,low1), measured(short_term,m2_pv,low1), short_term_bucket_change(m1_pv,none).
+0.4:failure(tempControlLoop,lowSetpoint) :- short_term_bucket_change(e2_tsi,down), short_term_bucket_change(m2_pv,none), measured(short_term,m1_pv,normal).
+0.4:failure(coolingWater,lowPressure) :- measured(short_term,srcr1_t,normal), measured(short_term,m1_pv,high1).
+0.4:failure(coolingWaterOutValve,stuckClosed) :- short_term_bucket_change(e2_tsi,down), short_term_bucket_change(m2_pv,none), measured(short_term,m1_pv,normal).
+0.4:failure(tempControlLoop,lowSetpoint) :- measured(short_term,srcr1_t,normal), measured(short_term,m1_pv,high1).
+0.4:failure(beforeCompressor,leak) :- measured(short_term,m2_pv,low1), short_term_bucket_change(srcr1_t,up), short_term_bucket_change(m1_pv,none).
+0.4:failure(coolingWater,lowPressure) :- measured(short_term,m2_pv,low1), short_term_bucket_change(srcr1_t,up), short_term_bucket_change(m1_pv,none).
+0.5:failure(coolingWater,lowPressure) :- measured(short_term,m2_pv,low1), short_term_bucket_change(e2_tsi,up), short_term_bucket_change(m1_pv,none).
+0.4:failure(tempControlLoop,lowSetpoint) :- measured(short_term,m2_pv,low1), short_term_bucket_change(srcr1_t,up), short_term_bucket_change(m1_pv,none).
+0.4:failure(coolingWaterOutValve,stuckClosed) :- measured(short_term,m2_pv,low1), short_term_bucket_change(srcr1_t,up), short_term_bucket_change(m1_pv,none).
+0.5:failure(beforeCompressor,leak) :- measured(short_term,m2_pv,low1), short_term_bucket_change(e2_tsi,up), short_term_bucket_change(m1_pv,none).
+0.5:failure(tempControlLoop,lowSetpoint) :- measured(short_term,m2_pv,low1), short_term_bucket_change(e2_tsi,up), short_term_bucket_change(m1_pv,none).
+0.5:failure(coolingWaterOutValve,stuckClosed) :- measured(short_term,m2_pv,low1), short_term_bucket_change(e2_tsi,up), short_term_bucket_change(m1_pv,none).
+0.4:failure(coolingWaterOutValve,stuckClosed) :- measured(short_term,srcr1_t,normal), measured(short_term,m1_pv,high1).
+0.2:failure(coolingWaterOutValve,stuckClosed) :- measured(short_term,m1_pv,high1), measured(short_term,srcr1_t,low1).
+0.4:failure(coolingWaterOutValve,stuckClosed) :- measured(short_term,e2_tsi,high1), measured(short_term,m1_pv,high1).
+0.4:failure(source,missingEthylene) :- short_term_bucket_change(m1_pv,up), short_term_bucket_change(e2_tsi,none), short_term_bucket_change(srcr1_t,up).
+1:failure(source,missingEthylene) :- measured(short_term,m1_pv,high3).
+1:failure(flowControlLoop,lowSetpoint) :- short_term_bucket_change(m2_pv,down), measured(short_term,m1_pv,normal).
+0.4:failure(flowControlLoop,lowSetpoint) :- measured(short_term,e2_tsi,low1), short_term_bucket_change(m1_pv,none).
+0.3:failure(coolingWater,lowPressure) :- measured(short_term,m2_pv,low1), short_term_bucket_change(m1_pv,none).
+0.4:failure(coolingWater,lowPressure) :- measured(short_term,e2_tsi,low1), short_term_bucket_change(m2_pv,none), measured(short_term,m1_pv,normal).

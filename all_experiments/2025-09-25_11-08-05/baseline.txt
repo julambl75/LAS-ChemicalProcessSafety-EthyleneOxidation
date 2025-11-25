@@ -1,0 +1,36 @@
+--> Accuracy for 'lowPressure_source':	71.1
+--> Accuracy for 'highTemp_source':	75.0
+--> Accuracy for 'lowTemp_source':	72.6
+--> Accuracy for 'highTemp_coolingWater':	75.0
+--> Accuracy for 'lowTemp_coolingWater':	100.0
+svm: 0.7759103641456583
+--> Accuracy for 'lowPressure_source':	71.9
+--> Accuracy for 'highTemp_source':	75.0
+--> Accuracy for 'lowTemp_source':	97.5
+--> Accuracy for 'highTemp_coolingWater':	75.0
+--> Accuracy for 'lowTemp_coolingWater':	75.0
+mlp: 0.7535014005602241
+--> Accuracy for 'lowPressure_source':	71.9
+--> Accuracy for 'highTemp_source':	81.2
+--> Accuracy for 'lowTemp_source':	77.1
+--> Accuracy for 'highTemp_coolingWater':	81.2
+--> Accuracy for 'lowTemp_coolingWater':	81.2
+random_forest: 0.7759103641456583
+--> Accuracy for 'lowPressure_source':	71.9
+--> Accuracy for 'highTemp_source':	81.2
+--> Accuracy for 'lowTemp_source':	77.1
+--> Accuracy for 'highTemp_coolingWater':	81.2
+--> Accuracy for 'lowTemp_coolingWater':	81.2
+hist_gradient: 0.7759103641456583
+--> Accuracy for 'lowPressure_source':	20.0
+--> Accuracy for 'highTemp_source':	20.0
+--> Accuracy for 'lowTemp_source':	20.0
+--> Accuracy for 'highTemp_coolingWater':	20.0
+--> Accuracy for 'lowTemp_coolingWater':	20.0
+ada_boost: 0.7759103641456583
+ --> Accuracy ignoring probabilities for class "highTemp_coolingWater": 1.0
+ --> Accuracy ignoring probabilities for class "highTemp_source": 1.0
+ --> Accuracy ignoring probabilities for class "lowPressure_source": 1.0
+ --> Accuracy ignoring probabilities for class "lowTemp_coolingWater": 1.0
+ --> Accuracy ignoring probabilities for class "lowTemp_source": 1.0
+Warning: unable to plot for class "nominal"

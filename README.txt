@@ -13,6 +13,12 @@ The learned_rules/ folder contains one subdirectory for the static rules learned
 
 The confusion_matrices/ folder contains one subdirectory for each of the subsets of experiments considered. In each one, we provide the confusion matrices for the baselines and for T_dynamic, along with a labels.txt file that contains the mapping from class indices to experiment labels.
 
+
+
+... Specifically, for our approach, ...
+
+
+
 # Explainability of Baselines
 
 The decision_trees/ folder contains decision trees taken from trained instances of the two baselines that are inherently explainable: RandomForest and AdaBoost. By default the maximum depths for models' decision trees are respectively 15 and 4, which both yield similar results.
@@ -24,3 +30,7 @@ The rf_hypothesis_parameters/ folder contains the decision tree and confusion ma
 # Table 2
 
 The table_2_short_names/ folder contains a README file explaining the short names of Table 2 in detail; these will also be clarified in the final paper.
+
+# All Experiments
+
+For transparency and completeness, the all_experiments/ folder contains the results from all the experiments we ran (and more) to generate Tables 2 and 4, and Figure 4.

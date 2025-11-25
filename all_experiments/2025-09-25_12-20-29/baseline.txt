@@ -1,0 +1,42 @@
+--> Accuracy for 'missingEthylene_source':	73.1
+--> Accuracy for 'lowSetpoint_flowControlLoop':	75.0
+--> Accuracy for 'lowSetpoint_tempControlLoop':	31.7
+--> Accuracy for 'leak_beforeCompressor':	73.1
+--> Accuracy for 'lowPressure_coolingWater':	30.0
+--> Accuracy for 'stuckClosed_coolingWaterOutValve':	35.0
+svm: 0.46785714285714286
+--> Accuracy for 'missingEthylene_source':	72.5
+--> Accuracy for 'lowSetpoint_flowControlLoop':	75.0
+--> Accuracy for 'lowSetpoint_tempControlLoop':	25.4
+--> Accuracy for 'leak_beforeCompressor':	81.2
+--> Accuracy for 'lowPressure_coolingWater':	42.7
+--> Accuracy for 'stuckClosed_coolingWaterOutValve':	21.7
+mlp: 0.45
+--> Accuracy for 'missingEthylene_source':	79.2
+--> Accuracy for 'lowSetpoint_flowControlLoop':	79.2
+--> Accuracy for 'lowSetpoint_tempControlLoop':	16.3
+--> Accuracy for 'leak_beforeCompressor':	79.2
+--> Accuracy for 'lowPressure_coolingWater':	56.7
+--> Accuracy for 'stuckClosed_coolingWaterOutValve':	10.8
+random_forest: 0.45357142857142857
+--> Accuracy for 'missingEthylene_source':	79.2
+--> Accuracy for 'lowSetpoint_flowControlLoop':	79.2
+--> Accuracy for 'lowSetpoint_tempControlLoop':	6.7
+--> Accuracy for 'leak_beforeCompressor':	79.2
+--> Accuracy for 'lowPressure_coolingWater':	50.0
+--> Accuracy for 'stuckClosed_coolingWaterOutValve':	16.7
+hist_gradient: 0.45714285714285713
+--> Accuracy for 'missingEthylene_source':	79.2
+--> Accuracy for 'lowSetpoint_flowControlLoop':	79.2
+--> Accuracy for 'lowSetpoint_tempControlLoop':	16.7
+--> Accuracy for 'leak_beforeCompressor':	79.2
+--> Accuracy for 'lowPressure_coolingWater':	16.7
+--> Accuracy for 'stuckClosed_coolingWaterOutValve':	16.7
+ada_boost: 0.425
+ --> Accuracy ignoring probabilities for class "leak_beforeCompressor": 0.9714285714285714
+ --> Accuracy ignoring probabilities for class "lowPressure_coolingWater": 0.7142857142857143
+ --> Accuracy ignoring probabilities for class "lowSetpoint_flowControlLoop": 1.0
+ --> Accuracy ignoring probabilities for class "lowSetpoint_tempControlLoop": 0.7142857142857143
+ --> Accuracy ignoring probabilities for class "missingEthylene_source": 1.0
+ --> Accuracy ignoring probabilities for class "stuckClosed_coolingWaterOutValve": 0.7142857142857143
+Warning: unable to plot for class "nominal"

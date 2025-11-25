@@ -1,0 +1,18 @@
+ --> Number of rules: 10
+ --> Average length of body: 2.8
+ --> Average rule probability: 0.53
+ --> Median rule probability: 0.4
+ --> Average number of rules per class: 1.6666666666666667
+
+ --> Accuracy ignoring probabilities for class "leak_beforeCompressor": 1.0
+ --> Accuracy ignoring probabilities for class "lowPressure_coolingWater": 0.6
+ --> Accuracy ignoring probabilities for class "lowSetpoint_flowControlLoop": 1.0
+ --> Accuracy ignoring probabilities for class "lowSetpoint_tempControlLoop": 0.6142857142857143
+ --> Accuracy ignoring probabilities for class "missingEthylene_source": 0.9571428571428572
+ --> Accuracy ignoring probabilities for class "stuckClosed_coolingWaterOutValve": 0.5857142857142857
+ --> AUC for class "leak_beforeCompressor": 1.0
+ --> AUC for class "lowPressure_coolingWater": 0.75
+ --> AUC for class "lowSetpoint_flowControlLoop": 1.0
+ --> AUC for class "lowSetpoint_tempControlLoop": 0.7725
+ --> AUC for class "missingEthylene_source": 0.975
+ --> AUC for class "stuckClosed_coolingWaterOutValve": 0.75
