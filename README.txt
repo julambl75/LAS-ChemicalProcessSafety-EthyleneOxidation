@@ -15,4 +15,4 @@ The decision_trees/ folder contains decision trees taken from trained instances 
 
 # Table 2
 
-The table_2_short_names/ folder contains a text file explaining the short names of Table 2 in detail; these will also be clarified in the final paper.
+The table_2_short_names/ folder contains a README file explaining the short names of Table 2 in detail; these will also be clarified in the final paper.
