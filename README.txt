@@ -11,4 +11,8 @@ The confusion_matrices/ folder contains one subdirectory for each of the subsets
 
 # Explainability of Baselines
 
-The decision_trees/ folder contains decision trees taken from trained instances of the two baselines that are inherently explainable: RandomForest and AdaBoost. By default the maximum depths for models' decision trees are respectively 15 and 6, which both yield similar results. The folder also includes a performance.txt listing the accuracy, precision, recall and F1 score for each variation tried.
+The decision_trees/ folder contains decision trees taken from trained instances of the two baselines that are inherently explainable: RandomForest and AdaBoost. By default the maximum depths for models' decision trees are respectively 15 and 4, which both yield similar results.
+
+# Table 2
+
+The table_2_short_names/ folder contains a text file explaining the short names of Table 2 in detail; these will also be clarified in the final paper.
