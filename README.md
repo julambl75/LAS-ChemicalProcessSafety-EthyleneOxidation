@@ -1,3 +1,5 @@
+This repository contains supplememtary material for a submission to MAKE-2026 (Machine Learning and Knowledge Engineering for Knowledge-Grounded Semantic Agents).
+
 We have conducted a study investigating the feasibility of using symbolic machine learning to detect failures in chemical processes. To address the lack of real-world failure data, we leveraged data generated from a
 chemical process simulator. Our method builds on a state-of-the-art symbolic machine learning system called DisPLAS, capable of learning predictive models in the form of probabilistic rules from context-dependent
 noisy examples. This system is a general-purpose symbolic learner, which makes our approach agnostic of any specific chemical process. We have evaluated it using a simulated ethylene oxidation process.
