@@ -33,6 +33,6 @@ The rf_hypothesis_parameters/ folder contains the decision tree and confusion ma
 
 The table_2_short_names/ folder contains a text file explaining the short names of Table 2 in detail.
 
-# All Experiments
+## All Experiments
 
 For transparency and completeness, the all_experiments/ folder contains the results from all the experiments we ran (and more) to generate Table 2.
