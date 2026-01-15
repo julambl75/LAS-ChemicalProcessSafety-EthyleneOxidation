@@ -19,7 +19,7 @@ The learned_rules/ folder contains one subdirectory for the static rules learned
 
 # Confusion Matrices
 
-The confusion_matrices/ folder contains one subdirectory for each of the subsets of experiments considered. In each one, we provide the confusion matrices for the baselines and for our approach, along with a labels.txt file that contains the mapping from class indices to experiment labels. In particular, for our approach we include the confusion matrices from each probability level l (i.e., considering only the hypothesis rules with probability p >= l). For reference, we also include the corresponding failure classification rules.
+The confusion_matrices/ folder contains one subdirectory for each of the subsets of experiments considered. In each one, we provide the confusion matrices for the baselines and for our approach, along with a labels.txt file that contains the mapping from class indices to experiment labels. In particular, for our approach we include the confusion matrices from each probability level l (i.e., considering only the hypothesis rules with probability $p \geq l$). For reference, we also include the corresponding failure classification rules.
 
 # Explainability of Baselines
 
@@ -31,8 +31,8 @@ The rf_hypothesis_parameters/ folder contains the decision tree and confusion ma
 
 # Table 2
 
-The table_2_short_names/ folder contains a text file explaining the short names of Table 2 in detail; these will also be clarified in the final paper.
+The table_2_short_names/ folder contains a text file explaining the short names of Table 2 in detail.
 
 # All Experiments
 
-For transparency and completeness, the all_experiments/ folder contains the results from all the experiments we ran (and more) to generate Tables 2 and 4, and Figure 4.
+For transparency and completeness, the all_experiments/ folder contains the results from all the experiments we ran (and more) to generate Table 2.
