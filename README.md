@@ -13,6 +13,12 @@ The data/ folder contains three files:
 - static.csv: data for T_static, to be split into train and validation
 - dynamic.csv: data for T_dynamic, to be split into train and validation
 
+## Tasks
+
+The displas_tasks/ folder contains two files for each task ($T_{static}$ and $T_{dynamic}$):
+- train.las: contains the training examples and mode bias
+- bias.las: contains additional bias constraints and the set of probabilities $\Phi$ to use
+
 ## Learned Rules
 
 The learned_rules/ folder contains one subdirectory for the static rules learned over the entire set of failures and process parameters, and one subdirectory for the dynamic rules learned over the "real-world" parameters, for the three different sets of failures considered in Table 2.
