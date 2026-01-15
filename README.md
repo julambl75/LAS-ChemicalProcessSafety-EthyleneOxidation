@@ -6,22 +6,22 @@ noisy examples. This system is a general-purpose symbolic learner, which makes o
 Experimental results show that symbolic machine learning can outperform baseline methods such as random forest and multilayer perceptron, while preserving interpretability through the generation of
 compact, rule-based predictive models.
 
-# Data
+## Data
 
 The data/ folder contains three files:
 - component_order.csv: used by T_static to determine upstream components
 - static.csv: data for T_static, to be split into train and validation
 - dynamic.csv: data for T_dynamic, to be split into train and validation
 
-# Learned Rules
+## Learned Rules
 
 The learned_rules/ folder contains one subdirectory for the static rules learned over the entire set of failures and process parameters, and one subdirectory for the dynamic rules learned over the "real-world" parameters, for the three different sets of failures considered in Table 2.
 
-# Confusion Matrices
+## Confusion Matrices
 
 The confusion_matrices/ folder contains one subdirectory for each of the subsets of experiments considered. In each one, we provide the confusion matrices for the baselines and for our approach, along with a labels.txt file that contains the mapping from class indices to experiment labels. In particular, for our approach we include the confusion matrices from each probability level l (i.e., considering only the hypothesis rules with probability $p \geq l$). For reference, we also include the corresponding failure classification rules.
 
-# Explainability of Baselines
+## Explainability of Baselines
 
 The decision_trees/ folder contains decision trees taken from trained instances of the two baselines that are inherently explainable: RandomForest and AdaBoost. By default the maximum depths for models' decision trees are respectively 15 and 4. **Note:** each decision tree provided is just one of the 100 estimators used — the models' output class for a given set of process conditions is computed by combining the results from all estimators (hence, our ability to select more than one of the highest-probability failure classes predicted).
 
@@ -29,7 +29,7 @@ The rf_hypothesis_parameters/ folder contains the decision tree and confusion ma
 
 ^ in the paper, we included a slightly simplified process flowsheet that hides (pressure) sensor M3, and referred to M3.PV as K1.P2
 
-# Table 2
+## Table 2
 
 The table_2_short_names/ folder contains a text file explaining the short names of Table 2 in detail.
 
